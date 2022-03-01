@@ -13,14 +13,14 @@ namespace RechniciUpr2
 
             while (true)
             
-            if (input[0] == "Stop")
+            if (input[0] == "List")
             {
                 break;
             }
 
             if (input[0].ToLower() == "Add")
             {
-                if (!EmaiList.ContainsKey(input[1]))
+                if (!.ContainsKey(input[1]))
                 {
                     EmaiList.Add(input[1], input[2]);
                 }
