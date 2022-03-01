@@ -42,9 +42,7 @@ namespace RechniciOcenka
                     {
                         Console.WriteLine($"„Input is not correct!“.");
                     }
-
-
-
+                    
                 }
                 if (input[0] == "Sent")
                 {
